@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRootSecComponent } from './app-root-sec/app-root-sec.component';
-
+// Для работы t-w-d/bin
+import {FormsModule} from '@angular/forms'
 // Св-ва деоратора - массивы 
 @NgModule({
   //Импользуемые компоненты (каждый компонент може�,
@@ -15,7 +16,7 @@ import { AppRootSecComponent } from './app-root-sec/app-root-sec.component';
   ],
   // Названия внешних модулей
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   // Сервисы
   providers: [],

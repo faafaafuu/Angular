@@ -12,5 +12,8 @@ import { Component } from '@angular/core';
 })
 // Определение логики Component 
 export class AppComponent {
-  title = 'app'; 
+  title = 'my app';  
+  onBtnClick() {
+    return this.title = 'That\'s how it working Event Binding'
+  }
 }
