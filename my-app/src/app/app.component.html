@@ -12,6 +12,11 @@
   <div *ngFor="let user of users">
     <p>{{user.name}}</p>
   </div>
+  <div>
+    {{date|date:"dd/MM/yyyy"}}
+    {{users|json}}
+    <input type="text" [value]="title|uppercase">
+  </div>
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>

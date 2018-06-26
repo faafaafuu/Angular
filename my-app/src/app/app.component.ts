@@ -21,6 +21,7 @@ export class AppComponent {
     {name: 'Three'},
     {name: 'Four'}
   ];    
+  date: Date = new Date();
   onBtnClick() {
     return this.title = 'That\'s how it working Event Binding'
   }
