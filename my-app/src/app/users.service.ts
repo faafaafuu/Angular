@@ -5,7 +5,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UsersService {
-  
+  public createDate: Date = new Date();
+  public clickCount: number = 1;
+  public i() {
+    return this.clickCount++;
+  };
+
   constructor() { }
 
   public getUsers(): Array<any> {

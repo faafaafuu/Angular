@@ -12,3 +12,7 @@
   </tr>
 </table>
 <br>
+<p>Created: {{usersService.createDate|date:'dd.MM.yyyy &nbsp; HH:mm:ss.SSS'}}</p>
+<p>Cicked: {{usersService.clickCount}} times.</p>
+<button (click)='usersService.i()'>Click</button>
+<br>

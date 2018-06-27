@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 import { UserTableComponent } from './user-table/user-table.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { UsersService } from './users.service';
 //Декоратор описывающий св-ва компонента
 @Component({
   // Методанные
@@ -11,7 +12,8 @@ import { UserListComponent } from './user-list/user-list.component';
   selector: 'app-root',
   // Файл шаблона
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [],
 })
 // Определение логики Component 
 export class AppComponent {

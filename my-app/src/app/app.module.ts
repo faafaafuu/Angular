@@ -24,7 +24,7 @@ import { UsersService } from './users.service';
     BrowserModule, FormsModule
   ],
   // Сервисы
-  providers: [UsersService],
+  providers: [],
   // Корневые компоненты (доб.)
   // cmd~ ng generate component appRoot..
   bootstrap: [AppComponent, AppRootSecComponent]
