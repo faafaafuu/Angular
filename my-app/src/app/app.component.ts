@@ -1,5 +1,7 @@
 //Библтотека ag - @angular/core
 import { Component } from '@angular/core';
+import { UserTableComponent } from './user-table/user-table.component';
+import { UserListComponent } from './user-list/user-list.component';
 //Декоратор описывающий св-ва компонента
 @Component({
   // Методанные
