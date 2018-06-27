@@ -1,4 +1,4 @@
-// Сгенерированный сервис - ng generate service users
+// Сгенерированный сервис - ng generate service users (сервис userService)
 import { Injectable } from '@angular/core';
 
 @Injectable({

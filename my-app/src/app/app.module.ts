@@ -8,6 +8,7 @@ import { AppRootSecComponent } from './app-root-sec/app-root-sec.component';
 import {FormsModule} from '@angular/forms';
 import { UserTableComponent } from './user-table/user-table.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { UsersService } from './users.service';
 // Св-ва деоратора - массивы 
 @NgModule({
   //Импользуемые компоненты (каждый компонент може�,
@@ -23,7 +24,7 @@ import { UserListComponent } from './user-list/user-list.component';
     BrowserModule, FormsModule
   ],
   // Сервисы
-  providers: [],
+  providers: [UsersService],
   // Корневые компоненты (доб.)
   // cmd~ ng generate component appRoot..
   bootstrap: [AppComponent, AppRootSecComponent]
